@@ -1,0 +1,38 @@
+.bloco{
+    background-color: #2196F3;
+    border: 2px solid coral;
+    border-radius: 15px;
+    width: 480px;
+    display: block;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.bloco-sm{
+    text-align: center;
+    padding: 5px;
+}
+
+h1{
+    color: white; 
+    text-align: center; 
+    padding-bottom: 10px;  
+}
+
+label{
+    font-size: 26px; 
+    padding-right: 10px;  
+}
+
+label#bin{
+    padding-right: 30px;
+}
+
+input{
+    font-size: 10px;
+    color: black;
+    font-weight: 600;
+}

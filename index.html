@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bin2Dec</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="bloco">
+        <header>
+            <h1>Bin2Dec</h1>
+        </header>
+        <div class="bloco-sm">
+            <label for="input" id="bin">Binary</label>
+            <input type="text" name="numero" id="numero" maxlength="8" placeholder="Max. 8 digits" />
+        </div>
+        <div class="bloco-sm">
+            <label for="input">Decimal</label>
+            <input type="number" name="decimal" id="decimal" disabled />
+        </div>
+        <div class="bloco-sm">
+            <button type="button" class="btn btn-warning" id="bin2Dec">Convert</button>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
