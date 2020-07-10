@@ -1,3 +1,4 @@
+// Ao clicar no botão, faz a conversão de binário para decimal
 bin2Dec.onclick = () => {
     // recebe o número binário digitado
     let num = String(numero.value)
@@ -15,4 +16,18 @@ bin2Dec.onclick = () => {
     // mostra o valor no campo
     decimal.value = total
     numero.value = ""
+}
+
+// Filtra os números digitados, somente 0 ou 1. Permite Enter para ativar o cálculo
+numero.onkeypress = (num) => {
+    if (num.key === '1' || num.key === '0') {
+        return true
+    } else if (num.key === "Enter") {
+        bin2Dec.onclick()
+    }
+    else {
+        alert("Digite apenas 0 ou 1\nEx: 11001")
+        numero.focus()
+        return false
+    }
 }

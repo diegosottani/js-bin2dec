@@ -28,11 +28,15 @@ label{
 }
 
 label#bin{
-    padding-right: 30px;
+    padding-right: 22px;
 }
 
 input{
     font-size: 10px;
     color: black;
+    font-weight: 600;
+}
+
+button.converter{
     font-weight: 600;
 }
